@@ -1,0 +1,1 @@
+web: unicorn namasys.wsgi --log-file -
