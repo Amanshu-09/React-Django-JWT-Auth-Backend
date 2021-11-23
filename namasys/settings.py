@@ -12,9 +12,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-o21^#$gfhv)%5&$44i6e-npf^e^@)mt7z7rlf%og0+^l-rjdk8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['react-django-jwt-auth-backend.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
